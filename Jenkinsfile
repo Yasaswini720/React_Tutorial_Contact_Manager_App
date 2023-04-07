@@ -11,7 +11,7 @@ pipeline {
   stages {
     stage("build") {
       steps {
-        git credentialsId: 'GitHub', url: 'https://github.com/Yasaswini720/React_Tutorial_Contact_Manager_App.git'
+        //git credentialsId: 'GitHub', url: 'https://github.com/Yasaswini720/React_Tutorial_Contact_Manager_App.git'
         bat 'npm install'
         bat 'npm run build'
       }}
